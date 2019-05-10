@@ -2,8 +2,8 @@
 
 const opts = {
   isProd: require('./production.config.js').production,
-  reactAppRoot: '../reactApps/radium',
-  outPath: `../public/radium/built`,
+  reactAppRoot: '../reactApps/gloss',
+  outPath: `../public/gloss/built`,
 }
 
 const extractTextPlugin = require('extract-text-webpack-plugin'),
